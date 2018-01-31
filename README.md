@@ -1,5 +1,5 @@
-# draw-board
-Draws geometrical shapes based on user's action click
+# Shape of YOURS
+⬛️⭕️ Draws geometrical shapes based on user's action click
 
 ## Introduction
 
@@ -8,10 +8,10 @@ The goal of Shape of YOURS is to create a parallelogram with an inner circle on 
 - **Click in 3 different points inside the Shape of YOURS's squared board**, each click will generate a 🔴 and a number;
 - After the 3 points appear on the squared board, an parallelogram will be shown and the inner circle will be added on it;
 - **Move the dots** anytime you want to!
-- **navigationrmations** about your movement will be on the left;
+- **Informations** about your movement will be on the left;
 - **Reset the board** to start again!
 
-![image](https://github.com/gdomiciano/draw-board/blob/develop/assets/screenshots/desktop.png?raw=true)
+![image](https://user-images.githubusercontent.com/5280832/35598504-f25b835c-060a-11e8-9467-270f3b549442.png)
 
 ## How to run locally
 This way is only if you don't want to access the relative path of this repository on your browser.
@@ -44,5 +44,7 @@ This application is totally responsive on desktop, tablets and smartphones on la
 
 ### Why this name?
 Because of this:
+
 ![sheeran](https://user-images.githubusercontent.com/5280832/35602233-53d11558-061e-11e8-8251-f3da76354274.png)
+
 ⬆️  he sang the song called "Shape of you" and I decided to pun this project's alm
