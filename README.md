@@ -26,6 +26,9 @@ This is a web application developed using HTML5 Canvas, pure CSS and pure ES6 ja
 ### Preview
 ![preview](https://user-images.githubusercontent.com/5280832/35784194-a3eec90a-09fb-11e8-88e1-7ee44382ac34.png)
 
+### Considerations
+**NO** THIRD PARTY CODE WERE USED ON THIS PROJECT! 🤘
+
 ### Responsive way
 This application is totally responsive on desktop, tablets and smartphones on landscape mode, however, only the board is shown on smartphone portrait mode.
 
