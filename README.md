@@ -1,7 +1,7 @@
 # Shape of YOURS
 🔷⭕️ Draws geometrical shapes based on user's action click
 
-**Please have a _demo version_** [right here](https://guicheffer.github.io/shape-of-yours/?1): https://guicheffer.github.io/shape-of-yours/?1
+**Please have a _demo version_** [right here](https://guicheffer.github.io/shape-of-yours/): https://guicheffer.github.io/shape-of-yours/
 
 ## How to
 ![how to with shape of yours](https://user-images.githubusercontent.com/5280832/35784148-f17251ac-09fa-11e8-9e41-70d0f10e4539.gif)
