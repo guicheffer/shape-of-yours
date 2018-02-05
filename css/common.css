@@ -139,6 +139,6 @@ li {
 
 @media screen and (orientation: portrait) and (max-width: 767px){
   .info {
-    display: none;
+    display: none !important;
  }
 }
