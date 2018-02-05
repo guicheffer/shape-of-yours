@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  overflow: hidden;
+}
+
+.info {
+  align-items: center;
+  border-left: 1px solid #333;
+  box-shadow: -7px -5px 33px #333;
+  color: #333;
+  cursor: default;
+  display: flex;
+  font-size: 20px;
+  height: calc(100vh - 80px);
+  justify-content: center;
+  line-height: 30px;
+  order: 2;
+  overflow: scroll;
+  padding: 20px 10px;
+  width: 45%;
+}
+.info-content {
+  border: 1px solid #000;
+  box-sizing: content-box;
+  padding: 30px 30px 0;
+  width: 180px;
+}
+.info-content--list{
+  margin-bottom: 25px;
+}
+.info-none--text {
+  font-size: 51px;
+  font-weight: 700;
+  line-height: 64px;
+  text-transform: lowercase;
+}
+
+/* areas  */
+.info-content--area--parallelogram { color: #798BB5; }
+
+/* points  */
+.info-content--area--circle { color: #BDAA20; }
+
+li[class^="info-content"] {
+  list-style: inside none;
+}
+
+li[class^="info-content--dot"]::before {
+  font-size: 16px;
+  margin-right: 8px;
+}
+li[class^="info-content--dot-1"]::before { content: '1️⃣'; }
+li[class^="info-content--dot-2"]::before { content: '2️⃣'; }
+li[class^="info-content--dot-3"]::before { content: '3️⃣'; }
+
+.button--reset {
+  bottom: 10px;
+  left: 10px;
+  opacity: 0.4;
+  position: absolute;
+  text-transform: uppercase;
+  transition: opacity .2s ease-in-out;
+  width: calc(30% - 20px);
+}
+
+.button--reset:hover { opacity: 1; }
+
+.board {
+  background-color: #eeeeee;
+  display: inline-block;
+  height: calc(100vh - 80px);
+  order: 1;
+  width: 60%;
+
+  background-color: #f1f2f3;
+  background-image:
+    -webkit-linear-gradient(0deg, transparent .05em, rgba(0,0,0,.05) .05em, rgba(0,0,0,.05) .125000em, transparent .125000em),
+    -webkit-linear-gradient(rgba(0,0,0,.05) .062500em, transparent .062500em);
+  background-image:
+    -moz-linear-gradient(0deg, transparent .05em, rgba(0,0,0,.05) .05em, rgba(0,0,0,.05) .125000em, transparent .125000em),
+    -moz-linear-gradient(rgba(0,0,0,.05) .062500em, transparent .062500em);
+  background-image:
+    -ms-linear-gradient(0deg, transparent .05em, rgba(0,0,0,.05) .05em, rgba(0,0,0,.05) .125000em, transparent .125000em),
+    -ms-linear-gradient(rgba(0,0,0,.05) .062500em, transparent .062500em);
+  background-image:
+    -o-linear-gradient(0deg, transparent .05em, rgba(0,0,0,.05) .05em, rgba(0,0,0,.05) .125000em, transparent .125000em),
+    -o-linear-gradient(rgba(0,0,0,.05) .062500em, transparent .062500em);
+  background-image:
+    linear-gradient(0deg, transparent .05em, rgba(0,0,0,.05) .05em, rgba(0,0,0,.05) .125000em, transparent .125000em),
+    inear-gradient(rgba(0,0,0,.05) .062500em, transparent .062500em);
+  background-size: 50px 50px;
+  background-position: 0 -0.5em;
+}
+
+@media screen and (orientation: portrait) and (max-width: 767px){
+  .container {
+    flex-direction: column;
+  }
+
+  .board {
+    width: 100%;
+  }
+}

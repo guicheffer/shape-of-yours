@@ -1,0 +1,12 @@
+/*- 🎨 Base colors
+ *
+ * Responsible for all colors
+ *
+-*/
+
+--blue = '#005293';
+--white = 'red';
+
+
+--blue-base = var(--blue);
+--white-base = var(--white);

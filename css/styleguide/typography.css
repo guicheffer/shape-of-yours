@@ -1,0 +1,21 @@
+/*- 🎨 Typography styles
+ *
+ * Responsible for the entire styleguide typography
+ *
+-*/
+
+/* Font sizes
+/ ---------------------------------------------- */
+--font-size-small = 12px;
+--font-size-medium = 14px;
+--font-size-base = 16px;
+--font-size-large = 21px;
+--font-size-price = 25px;
+--font-size-price-tag = 32px;
+--font-size-headline = 38px;
+
+/* Font styles
+/ ---------------------------------------------- */
+--font-weight-normal = 400;
+--font-weight-semi-bold = 600;
+--font-weight-bold = 700;

@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mukta', sans-serif, monospace;
+  font-size: var(--font-size);
+}
+
+a {
+  color: var(--blue-base);
+  text-decoration: none;
+}
