@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title> Shape of YOURS </title>
+
+    <link href="https://fonts.googleapis.com/css?family=Mukta:400,700" rel="stylesheet">
+
+    <link rel="icon" href="./assets/images/ico/favicon.ico" />
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/board.css">
+</head>
+<body>
+  <header class="header">
+    <a href="/">
+      <h1 class="header-call"> Shape of YOURS </h1>
+    </a>
+  </header>
+
+<div class="container">
+  <aside class="info">
+      <div class="info-none">
+        <p class="info-none--text">
+          <!-- Easter egg here, han?  -->
+          There is <br/> literally </br> NOTHING HERE 😔
+        </p>
+      </div>
+
+      <div class="info-content hidden">
+        <h3 class="info-title--Areas">The Areas</h3>
+        <ul class="info-content--list">
+          <li class="info-content--area--parallelogram">Parallelogram: </li>
+          <li class="info-content--area--circle">Blue Circle: </li>
+        </ul>
+        <h3 class="info-title--points">Your Points</h3>
+        <ol type="1" class="info-content--list">
+          <li class="info-content--dot-1"></li>
+          <li class="info-content--dot-2"></li>
+          <li class="info-content--dot-3"></li>
+        </ol>
+      </div>
+
+  </aside>
+
+  <main class="board">
+      <canvas id="canvas" class="board-canvas"></canvas>
+      <button class="button--reset">Reset board</button>
+  </main>
+</div>
+
+<script src="./js/board-manipulation.js"></script>
+
+</body>
+</html>
